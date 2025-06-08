@@ -1,0 +1,1 @@
+# Cogs package for Discord Community Manager Bot 
