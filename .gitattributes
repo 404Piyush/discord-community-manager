@@ -1,0 +1,57 @@
+# Python files
+*.py linguist-language=Python
+*.pyw linguist-language=Python
+*.py3 linguist-language=Python
+
+# Ensure Python files are detected
+main.py linguist-language=Python
+cogs/*.py linguist-language=Python
+utils/*.py linguist-language=Python
+
+# Text files
+*.txt text
+*.md text
+*.yml text
+*.yaml text
+*.json text
+*.env text
+*.example text
+
+# Python specific
+requirements.txt linguist-language=pip-requirements
+*.cfg text
+setup.py linguist-language=Python
+setup.cfg linguist-language=Python
+
+# Line ending handling
+*.py text eol=lf
+*.pyw text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+
+# Exclude certain files from language detection
+*.bat linguist-detectable=false
+*.sh linguist-detectable=false
+start.bat linguist-detectable=false
+start.sh linguist-detectable=false
+
+# Documentation
+README.md linguist-documentation
+*.md linguist-documentation
+
+# Vendor or generated files (if any)
+data/* linguist-vendored=false
+screenshots/* linguist-documentation 
